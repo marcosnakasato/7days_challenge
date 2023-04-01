@@ -111,6 +111,7 @@
     flex-direction: column;
     gap: 18px;
     align-items: center;
+    padding: 64px;
 }
 .img__container--title {
     font-size: 36px;
@@ -129,8 +130,17 @@
     align-items: center;
     justify-content: center;
     padding: 40px;
+    gap: 64px;
     /* width: 1280px; */
 }
+.header__subtitle {
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+
+}
+
 .vacancies__list--item {
     display: flex;
     flex-direction: column;
@@ -158,4 +168,48 @@
     font-weight: 500;
     color: var(--text-black);
     margin-bottom: 32px;
+}
+.brief__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    width: 1216px;
+    margin: 0 auto;
+    padding: 96px;
+    background-color: var(--bck-pink);
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+    
+}
+.brief__subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--brown);
+    margin-bottom: 16px;
+}
+.brief__text {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+.brief__avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.avatar__img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 12px;
+}
+.avatar__name {
+    font-weight: 500;
+}
+.avatar__skill {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-grey);
 }
