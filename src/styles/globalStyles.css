@@ -1,0 +1,12 @@
+:root {
+    --brown : #8E2424;
+    --radius : 8px;
+    --font-family : 'Inter', sans-serif;
+    --text-grey : #667085;
+    --text-black : #101828;
+    --text-white : #ffffff;
+    --shadow : rgba(0, 0, 0, 0.25);
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
