@@ -176,8 +176,9 @@
     justify-content: center;
     gap: 32px;
     width: 1216px;
+    height: 404px;
     margin: 0 auto;
-    padding: 96px;
+    padding: 64px;
     background-color: var(--bck-pink);
     border-radius: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
@@ -212,4 +213,50 @@
     font-size: 14px;
     font-weight: 400;
     color: var(--text-grey);
+}
+footer {
+    /* width: 100vw;
+    height: 430px; */
+    margin-top: 96px;
+    background-color: #F9FAFB;
+    padding: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer__title {
+    font-size: 36px;
+    font-weight: 600;
+}
+.footer__text {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-grey);
+    margin: 20px;
+}
+footer div input {
+    width:360px ;
+    height: 48px;
+    font-size: 20px;
+    padding-left: 8px;
+    border-radius: var(--radius);
+    border: 1px solid var(--text-grey);
+}
+footer div button {
+    width:116px ;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: var(--radius);
+    background-color: var(--brown);
+    color: var(--text-white);
+    padding: 8px;
+    border: 1px solid var(--brown);
+    margin: 20px;
+}
+.copyrigth {
+    color: #98A2B3;
+    font-size: 16px;
+    margin-top: 12px;
 }
